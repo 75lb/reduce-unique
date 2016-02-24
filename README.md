@@ -6,6 +6,8 @@
 
 <a name="module_unique-reducer"></a>
 ## unique-reducer
+Reduce an array to one or more unique values.
+
 **Example**  
 ```js
 > unique = require('unique-reducer')

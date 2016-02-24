@@ -2,11 +2,11 @@
   "name": "unique-reducer",
   "author": "Lloyd Brookes <75pound@gmail.com>",
   "version": "0.0.0",
-  "description": "unique-reducer",
+  "description": "Reduce an array to one or more unique values",
   "repository": "https://github.com/75lb/unique-reducer.git",
   "license": "MIT",
   "main": "./lib/unique-reducer.js",
-  "keywords": [],
+  "keywords": [ "reduce", "array", "unique" ],
   "engines": {
     "node": ">=0.10.0"
   },
