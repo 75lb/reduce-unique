@@ -1,0 +1,21 @@
+{
+  "name": "unique-reducer",
+  "author": "Lloyd Brookes <75pound@gmail.com>",
+  "version": "0.0.0",
+  "description": "unique-reducer",
+  "repository": "https://github.com/75lb/unique-reducer.git",
+  "license": "MIT",
+  "main": "./lib/unique-reducer.js",
+  "keywords": [],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js",
+    "docs": "jsdoc2md -t jsdoc2md/README.md lib/*.js > README.md; echo"
+  },
+  "devDependencies": {
+    "jsdoc-to-markdown": "^1.3.3",
+    "tape": "^4.4.0"
+  }
+}
