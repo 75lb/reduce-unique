@@ -10,9 +10,9 @@ Reduce an array to unique values, optionally into a separate array.
 
 **Example**  
 ```js
-> unique = require('reduce-unique')
+> const unique = require('reduce-unique')
 
-> var arr = [ 1, 3, 8, 3, 1, 2, 1, 9, 3, 3 ]
+> const arr = [ 1, 3, 8, 3, 1, 2, 1, 9, 3, 3 ]
 
 > arr.reduce(unique)
 [ 1, 3, 8, 2, 9 ]
