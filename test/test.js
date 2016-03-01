@@ -18,3 +18,15 @@ test('unique, single value', function (t) {
   t.deepEqual(arr.reduce(unique), 3)
   t.end()
 })
+
+test('unique, single value into an array', function (t) {
+  var arr = [ 3 ]
+  t.deepEqual(arr.reduce(unique, []), [ 3 ])
+  t.end()
+})
+
+test('unique, single value into an array 2', function (t) {
+  var arr = [ 3, 3 ]
+  t.deepEqual(arr.reduce(unique, [ 'one', 'two' ]), [ 'one', 'two', 3 ])
+  t.end()
+})
