@@ -1,5 +1,3 @@
-'use strict'
-
 /**
  * Reduce an array to unique values, optionally into a separate array.
  *
