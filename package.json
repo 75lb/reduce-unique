@@ -1,7 +1,7 @@
 {
   "name": "reduce-unique",
   "author": "Lloyd Brookes <75pound@gmail.com>",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Reduce an array to unique values, optionally into a separate array.",
   "repository": "https://github.com/75lb/reduce-unique.git",
   "license": "MIT",
